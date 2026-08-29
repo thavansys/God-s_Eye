@@ -1,5 +1,5 @@
 [project]
-name = "border-surveillance-detection"
+name = "gods-eye"
 version = "0.1.0"
 description = "Phase 1 — YOLO Person Detection for Border Surveillance AI"
 readme = "README.md"
@@ -9,12 +9,5 @@ dependencies = [
     "opencv-python>=4.10.0",
 ]
 
-[project.optional-dependencies]
-dev = []
-
 [tool.uv]
-dev-dependencies = []
-
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
+package = false
